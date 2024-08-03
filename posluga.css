@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 61, 61);
+    margin-top: 30px;
+}
+.divp{
+    width: 55%;
+}
+
+.divp h2 {
+    text-align: justify;
+    color: aliceblue;
+    padding: 20px;
+}
+.divp p{
+    color: rgb(201, 205, 209);
+    font-size: 23px;
+    text-align: justify;
+    padding: 20px;
+}
+.imgd img{
+    width:500px ;
+    transition: 0.3s linear;
+}
+.imgd{
+    overflow: hidden;
+}
+
+.imgd img:hover{
+    transform: scale(1.2);
+    
+}
+
+
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    
+    border-bottom: 2px solid rgb(110, 95, 9);
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+}
+
+nav::before{
+    content: url("https://learn.logikaschool.com/uploads/student/2401915/669b97dcc2399.svg");
+    padding-right: 50%;
+}
+
+
+nav a{
+    color: rgb(179, 167, 167);
+    text-decoration: none;
+    border: 2px solid rgb(179, 167, 167);
+    padding: 5px 10px;
+    transition: 0.3s linear;
+
+}
+nav a:last-child{
+    margin-right: 100px;
+}
+nav a:hover{
+    box-shadow: 0px 0px 10px 5px white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(110, 95, 9);
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+
+.footer_div1{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.footer_div1 img{
+    width: 50px;
+}

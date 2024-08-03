@@ -1,0 +1,248 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+
+
+
+
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    
+    border-bottom: 2px solid rgb(110, 95, 9);
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+}
+
+nav::before{
+    content: url("https://learn.logikaschool.com/uploads/student/2401915/669b97dcc2399.svg");
+    padding-right: 50%;
+}
+
+
+nav a{
+    color: rgb(179, 167, 167);
+    text-decoration: none;
+    border: 2px solid rgb(179, 167, 167);
+    padding: 5px 10px;
+    transition: 0.3s linear;
+
+}
+nav a:last-child{
+    margin-right: 100px;
+}
+nav a:hover{
+    box-shadow: 0px 0px 10px 5px white;
+    
+}
+
+
+.clogo{
+    width: 100%;
+    text-align: center;
+    
+    height: 100vh;
+    padding-top: 100px;
+
+
+}
+
+.logo{
+    width: 400px;
+    
+
+}
+
+h1{
+    color: rgb(179, 167, 167);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.info{
+    width: 100%;
+    display: flex;
+justify-content: center;
+}
+
+.post1 ,.post2,.post3{
+    width: 33%;
+    background-color: crimson;
+    text-align: center;
+    height: 600px;
+
+}
+span{
+    color: gold;
+
+}
+
+.post1{
+    background-image:url(https://learn.logikaschool.com/uploads/student/2401915/669b9b3fdb979.jpg);
+     background-size: cover;
+      background-position: center;
+       background-repeat: no-repeat;
+
+}
+
+.post2{
+    background-image:url(https://learn.logikaschool.com/uploads/student/2401915/669b9b45545f6.jpg);
+    background-size: cover;
+      background-position: center;
+       background-repeat: no-repeat;
+}
+
+.post3{
+    background-image:url(https://learn.logikaschool.com/uploads/student/2401915/669b9b42ebf92.jpg);
+    background-size: cover;
+      background-position: center;
+       background-repeat: no-repeat;
+}
+
+.post1 h2,p{
+color: aliceblue;
+
+}
+
+.post3 h2{
+    color: aliceblue;
+}
+
+.post2 p{
+    color: black;
+
+}
+.info p{
+    padding: 0px 5px;
+
+}
+
+
+
+.post1 .article-but,.post3 .article-but{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 10px ;
+    border: 1px solid aliceblue;
+    transition: 0.2s ease-in;
+}
+
+.post2 .article-but{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 10px ;
+    border: 2px solid black;    
+    transition: 0.2s ease;
+}
+
+.article-but:hover{
+    box-shadow: 0px 0px 5px 3px white;
+}
+.post2 .article-but:hover{
+    box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
+}
+
+.info2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post11, .post22{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.post11 p, .post22 p{
+    position: relative;
+    right: 500px;
+    transition: 0.5s ease-in;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+    border-bottom: 5px solid rgb(110, 95, 9);
+    top: 100px;
+    
+}
+
+.post11:hover p, .post22:hover p{
+    right: -10px;
+}
+
+
+.post11{
+    background-image:url(https://learn.logikaschool.com/uploads/student/2401915/66ade72e1130c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.post22{
+    background-image:url(https://learn.logikaschool.com/uploads/student/2401915/66ade72a12f2e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.last{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.last-but{
+    width: 100%;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 10px ;
+    border: 1px solid aliceblue;
+    transition: 0.2s ease-in;
+}
+
+.last-but:hover{
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(110, 95, 9);
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    align-items: center;
+
+}
+
+
+.footer_div1{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.footer_div1 img{
+    width: 50px;
+}
